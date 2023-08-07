@@ -9,4 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxthq/studio",
   ],
+  runtimeConfig: {
+    NUXT_PUBLIC_STUDIO_TOKENS: process.env.NUXT_PUBLIC_STUDIO_TOKENS,
+  },
 });
