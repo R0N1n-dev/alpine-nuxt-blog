@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     // https://github.com/nuxt/devtools
     "@nuxt/devtools",
-    "nuxt-content-assets",
     "@nuxthq/studio",
   ],
   runtimeConfig: {
